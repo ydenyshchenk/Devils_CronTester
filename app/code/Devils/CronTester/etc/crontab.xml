@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="devils_crontester" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>* * * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_839" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 8 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1039" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 10 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1139" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 11 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1239" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 12 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1339" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 13 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1394" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 14 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1539" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 15 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1639" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 16 * * *</schedule>
+        </job>
+        <job name="devils_crontester_super_1739" instance="Devils\CronTester\Cron\Test" method="execute">
+            <schedule>39 17 * * *</schedule>
+        </job>
+    </group>
+</config>
